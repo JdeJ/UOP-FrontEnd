@@ -10,6 +10,14 @@ class Statistics extends Component {
   }
 
   handleClick = (e) => {
+<<<<<<< HEAD
+=======
+    // const query = {
+    //   category: 'Sex',
+    //   user: 'Jdej',
+    //   opinion: 'Opinion',
+    // };
+>>>>>>> db763f471c413ef8e7087a89b6e80c3b62327651
 
     const dinosaurios = '5cc60f3fc17169fbfedd3ea5';
     const suicidas = '5ccbff34a54250552074284d';
@@ -32,6 +40,10 @@ class Statistics extends Component {
       // user: ines,
     };
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> db763f471c413ef8e7087a89b6e80c3b62327651
     statsService.query(query)
       .then((stats) => {
         this.setState({

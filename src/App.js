@@ -11,6 +11,7 @@ class App extends Component {
         <>
           <header className="jumbotron bg-micro">
             <Navbar {...this.props}/>
+<<<<<<< HEAD
             <header className="d-flex flex-wrap">
               <div className= "d-flex flex-column justify-content-center align-items-center pb-4 flex-grow-1 container">
                 <h1 className="des pt-5 pb-3">Unpopular Opinion</h1>
@@ -46,6 +47,14 @@ class App extends Component {
 
             </div>
           </div>
+=======
+            <div className="mt-5 pt-5 container cnt-pos flex-column">
+              <h1 className="pt-5 pb-3">Unpopular Opinion</h1>
+              <h4 className="mb-3">It’s a Social Network to see how popular are your thoughts within a community</h4>
+              <Link className="btn btn-white" to='/signup'>Signup</Link>
+            </div>
+          </div>
+>>>>>>> db763f471c413ef8e7087a89b6e80c3b62327651
         </>
     );
   }
